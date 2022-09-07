@@ -1,4 +1,29 @@
 #main-container {
     width: 300px;
     padding: 0;
+    border: 5px solid rgb(25, 125, 146);
+}
+
+#crest {
+    width: 30%;
+}
+
+#logo {
+    width: 100%;
+    padding: 15px;
+}
+
+#banner {
+    background-image: url(../img/Ara_Poutama_Dark_Blue.png);
+    background-size: cover;
+    border-bottom: 5px solid rgb(25, 125, 146);
+}
+
+form > div > .btn {
+    background-color: rgb(25, 125, 146) !important;
+}
+
+form > div > .btn:hover {
+    background-color: rgb(43, 150, 171) !important;
+    border-color: rgb(43, 150, 171) !important;
 }

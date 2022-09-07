@@ -1,0 +1,33 @@
+:root {
+    --background-color: #000;
+    --text-color: #abb2bf;
+  }
+  
+  body,
+  div,
+  th,
+  td,
+  table,
+  .container,
+  .container-fluid {
+    background-color: var(--background-color) !important;
+    border-color: slategray;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  th,
+  td,
+  div,
+  p,
+  span,
+  time,
+  blockquote {
+    color: var(--text-color) !important;
+  }
+  
+  a {
+    color: #61afef !important;
+  }

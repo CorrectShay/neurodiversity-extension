@@ -1,0 +1,20 @@
+{
+    "name": "Ara Poutama - Neurodiversity Extension",
+    "version": "1.0.0",
+    "description": "A browser extention to assist in modifying web applications to supported Neurodiversity standards",
+    "manifest_version": 3,
+    "author": "Mark Bradley, Shay Collings",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Popup"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting"
+    ]
+}

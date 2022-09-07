@@ -1,0 +1,24 @@
+:root {
+    --background-color: #FADBE7;
+    --text-color: #000;
+  }
+  
+  body,
+  div,
+  .container,
+  .container-fluid {
+    background-color: var(--background-color) !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  time,
+  blockquote {
+    color: var(--text-color) !important;
+  }
+  
+  a {
+    color: #61afef !important;
+  }
